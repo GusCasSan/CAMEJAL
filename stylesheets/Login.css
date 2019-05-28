@@ -1,0 +1,49 @@
+.cabecera{
+
+	width: 100%; 
+	height: auto;
+}
+.Login{
+	position: relative; 
+ 	color: #ba1927;
+
+}
+
+.icon_usuario{
+	position: relative;
+	 left: 10px;
+	  top: 60px;
+}
+
+.icon_pass{
+
+	position: relative;
+	 left: 10px;
+	  top: 40px;
+}
+.user_field{
+	position: relative; 
+	left: 160px;
+	 top: -10px;
+}
+.pass_field{
+
+	position: relative; 
+	left: 160px; 
+	top: -40px;
+}
+
+
+.otro{
+
+	color: white;
+	background-color: #ba1927
+}
+.delete{
+	width: 15px;
+	height: 15px;
+}
+.edit{
+	width: 15px;
+	height: 15px;
+}

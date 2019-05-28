@@ -1,0 +1,67 @@
+body{
+	background: black;
+	margin: 0 auto;
+	background-size: 100% 720px;
+
+}
+.contenedor{
+	width: 500px;
+	height: 750px;
+	text-align: center;
+	background-color:  rgba(255, 255, 255,0.5);
+	margin: 50px auto;
+    border-radius: 4px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.contenedor h1{
+	color: white;
+
+}
+
+.contenedor input{
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+	padding: 12px 20px;
+	box-shadow: 2px;
+	display: inline-block;
+	 border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.contenedor select{
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+}
+
+.contenedor label{
+	color: white;
+	font-size: 18px;
+	font-family: Arial;
+	left: 0;
+	margin-right: : 50px;
+	position: relative;
+	right: 50px;
+}
+
+.contenedor input[type=submit]{
+	background-color: rgb(186, 25, 39);
+	color: white;
+	padding: 15px 25px;
+	border-radius: 4px;
+	border:none;
+	-webkit-border-radius: 5px;
+}
+.contenedor button{
+background-color: rgb(186, 25, 39);
+	color: white;
+	border-radius: 4px;
+	border:none;
+	-webkit-border-radius: 5px;
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+}
