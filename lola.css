@@ -1,0 +1,67 @@
+html { font-family: helvetica }
+
+.navMenu {
+    
+    line-height: 36px;
+    
+    width: 100%; 
+    height: auto;
+    /* CSS 3 */
+    background-image: linear-gradient(bottom, rgb(170,170,170) 11%, rgb(238,238,238) 77%);
+    background-image: -o-linear-gradient(bottom, rgb(170,170,170) 11%, rgb(238,238,238) 77%);
+    background-image: -moz-linear-gradient(bottom, rgb(170,170,170) 11%, rgb(238,238,238) 77%);
+    background-image: -webkit-linear-gradient(bottom, rgb(170,170,170) 11%, rgb(238,238,238) 77%);
+    background-image: -ms-linear-gradient(bottom, rgb(170,170,170) 11%, rgb(238,238,238) 77%);
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.11, rgb(170,170,170)), color-stop(0.77, rgb(238,238,238)) );
+    border-radius: 5px;
+}
+
+.navMenu a {
+    color: #333;
+    border-right: 1px solid rgba(255,255,255,.5);
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    padding: 0 15px;
+    text-align: center;
+    text-shadow: 0 1px 1px #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 33%;
+    /* CSS3 */
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.navMenu a:hover { background-color: rgba(0, 0, 0,.05) }
+
+.navMenu input {
+    background: url(lupita.jpg) 5px center no-repeat #FFF;
+    border: 1px solid #AAA;
+    color: #666;
+    float: right;
+    font-size: 11px;
+    margin: 7px 32px 0 0;
+    opacity: 0.6;
+    outline: none;
+    padding: 3px 5px 3px 20px;
+    width: 20%;
+    /* CSS3 */
+    border-radius: 5px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.navMenu input:hover { opacity: 1 }
+
+.navMenu input:focus {
+    opacity: 1;
+    width: 28%;
+    font-size: 15px;
+}
+
+.navMenu input:focus ~ a { width: 28% }
